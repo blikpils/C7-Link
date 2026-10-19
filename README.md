@@ -17,7 +17,9 @@ The idea is simple: you already own the bike, so you should be free to use it yo
 - **Raw data capture:** Captured serial data while varying resistance, cadence, and speed to investigate how workout metrics are encoded.
 - **Bluetooth connectivity:** Successfully connected the ESP32 to an Apple Watch and iPhone for integration with their fitness ecosystem.
 - **Protocol analysis:** Reverse-engineering the bike's serial data to identify and decode individual workout metrics.
+- **NO HARDWARE MODIFICATIONS: The goal is to be as non invasive as possible, therefore we only connect the esp32 c3 board to the logic controller trough the cable that is already in use which is an off the shelf M16 waterproof 8 pin connector. Adding the display is optional. 
 
+  
 ### In development
 - **Metric decoding:** Refining the interpretation and scaling of resistance, cadence, speed, distance, and other available values.
 - **Data accuracy:** Validating decoded metrics against actual riding conditions.
